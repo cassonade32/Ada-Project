@@ -17,7 +17,7 @@ r_df = robjects.r('readxl::read_excel("/Users/yashchohan/Desktop/Riaz Lab/ADA_Pr
 # Assign to global R variable
 robjects.globalenv['ada_data'] = r_df
 
-# Run analysis and plot (all in R, but from Python)
+# Run analysis and plot using R code
 robjects.r('''
 ada_data$TE <- log(ada_data$TE)
 ada_data$lowerci <- log(ada_data$lowerci)

@@ -4,7 +4,7 @@ from IPython.display import display, IFrame
 r_script_path = "/Users/yashchohan/Desktop/Riaz Lab/ADA_Project/ADA_Project_Test_Script.R"
 output_pdf = "/Users/yashchohan/Desktop/Riaz Lab/ADA_Project/forest_plot.pdf"
 
-# Run the R script using Rscript command
+# code to run the R script
 result = subprocess.run(["Rscript", r_script_path], capture_output=True, text=True)
 
 # This will let me check if my script actually ran properly or not

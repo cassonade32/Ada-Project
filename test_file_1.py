@@ -37,7 +37,7 @@ results <- metagen(
 )
 
 # Save forest plot as PDF
-pdf("/Users/yashchohan/Desktop/Riaz Lab/ADA_Project/forest_plot.pdf", width = 8, height = 6)
+pdf("/Users/yashchohan/Desktop/Riaz Lab/ADA_Project/_forest_plot.pdf", width = 8, height = 6)
 forest(results,
        col.square = "black",
        col.diamond = "red",
